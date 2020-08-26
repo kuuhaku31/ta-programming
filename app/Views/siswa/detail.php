@@ -27,7 +27,7 @@
                             <form action="/siswa/<?= $siswa['nisn']; ?>" method="POST" class="d-inline">
                                 <?= csrf_field(); ?>
                                 <input type="hidden" name="_method" value="DELETE">
-                                <button type="submit" class="btn btn-danger btn-sm mr-1">
+                                <button type="submit" class="btn btn-danger btn-sm mr-1" onclick="return confirm('Apakah yakin anda ingin menghapusnya?');">
                                     Hapus
                                 </button>
                             </form>
