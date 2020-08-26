@@ -92,13 +92,13 @@ class Siswa extends BaseController
 
         return redirect()->to('/siswa');
     }
-    /*
+
     public function delete($nisn)
     {
         $this->siswaModel->delete($nisn);
         return redirect()->to('/siswa');
     }
-*/
+
     //--------------------------------------------------------------------
 
 }
