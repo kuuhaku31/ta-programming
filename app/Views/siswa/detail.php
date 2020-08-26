@@ -24,13 +24,13 @@
                     <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
                         <div class="float-right">
                             <a href="#" class="btn btn-warning btn-sm mr-1">Ubah</a>
-                            <!-- <form action="/siswa/<?= $siswa['nisn']; ?>" method="POST" class="d-inline">
+                            <form action="/siswa/<?= $siswa['nisn']; ?>" method="POST" class="d-inline">
                                 <?= csrf_field(); ?>
                                 <input type="hidden" name="_method" value="DELETE">
                                 <button type="submit" class="btn btn-danger btn-sm mr-1">
                                     Hapus
                                 </button>
-                            </form> -->
+                            </form>
                             <a href="/siswa" class="btn btn-primary btn-sm">Kembali ke daftar siswa</a>
                         </div>
                         <h2><?= $title; ?></h2>
