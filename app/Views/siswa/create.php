@@ -72,7 +72,7 @@
                                     <div class="col">
                                         <label for="jurusan">Jurusan</label>
                                         <select id="jurusan" class="form-control" name="jurusan">
-                                            <option value=" IPA">IPA</option>
+                                            <option value="IPA">IPA</option>
                                             <option value="IPS">IPS</option>
                                             <option value="BAHASA">BAHASA</option>
                                         </select>
@@ -81,7 +81,7 @@
                                 <div class="form-group">
                                     <label for="jeniskelamin">Jenis Kelamin</label>
                                     <select id="jeniskelamin" class="form-control" name="j_kelamin">
-                                        <option value=" Laki - laki">Laki - laki</option>
+                                        <option value="Laki - laki">Laki - laki</option>
                                         <option value="Perempuan">Perempuan</option>
                                     </select>
                                 </div>
