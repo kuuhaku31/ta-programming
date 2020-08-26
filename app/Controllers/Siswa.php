@@ -86,7 +86,7 @@ class Siswa extends BaseController
             'alamat' => $this->request->getVar('alamat')
         );
 
-        $this->siswaModel->save($data);
+        $this->siswaModel->insert($data);
 
         session()->setFlashdata('pesan', 'Data berhasil ditambahkan!');
 
