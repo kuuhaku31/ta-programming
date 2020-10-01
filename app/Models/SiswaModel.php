@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class SiswaModel extends Model
 {
+    // for siswa database
     protected $table = "siswa";
     protected $useTimeStamps = true;
     protected $primaryKey = 'nisn';
