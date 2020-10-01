@@ -14,6 +14,7 @@ class SiswaModel extends Model
         'nama', 'nisn', 'nis', 'tem_lahir', 'tan_lahir', 'kelas', 'jurusan', 'j_kelamin', 'alamat'
     ];
 
+    // get all siswa function     
     public function getSiswa($nisn = false)
     {
         if ($nisn == false) {
